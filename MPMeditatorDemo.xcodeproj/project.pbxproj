@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AB15590E8E9262C67D2C629 /* Pods_MPMeditatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CB32C196CCA690C2A68A25 /* Pods_MPMeditatorDemo.framework */; };
 		FBFFC71D24BE9E9B00588B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC71C24BE9E9B00588B5E /* AppDelegate.m */; };
 		FBFFC72024BE9E9B00588B5E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC71F24BE9E9B00588B5E /* SceneDelegate.m */; };
 		FBFFC72324BE9E9B00588B5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC72224BE9E9B00588B5E /* ViewController.m */; };
@@ -14,8 +15,10 @@
 		FBFFC72824BE9E9E00588B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFFC72724BE9E9E00588B5E /* Assets.xcassets */; };
 		FBFFC72B24BE9E9E00588B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFFC72924BE9E9E00588B5E /* LaunchScreen.storyboard */; };
 		FBFFC72E24BE9E9E00588B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC72D24BE9E9E00588B5E /* main.m */; };
-		FBFFC73824BE9E9E00588B5E /* MPMeditatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC73724BE9E9E00588B5E /* MPMeditatorDemoTests.m */; };
-		FBFFC74324BE9E9E00588B5E /* MPMeditatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC74224BE9E9E00588B5E /* MPMeditatorDemoUITests.m */; };
+		FBFFC75224BE9FE800588B5E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC75124BE9FE800588B5E /* TableViewController.m */; };
+		FBFFC75624BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC75524BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.m */; };
+		FBFFC76224BEA07000588B5E /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC76024BEA07000588B5E /* Target_A.m */; };
+		FBFFC76524BEA07700588B5E /* DemoModuleADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC76324BEA07700588B5E /* DemoModuleADetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CF1209C27DC5D610923626A /* Pods-MPMeditatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPMeditatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-MPMeditatorDemo/Pods-MPMeditatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		40102DC155B4B566AC6CDFEA /* Pods-MPMeditatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPMeditatorDemo.release.xcconfig"; path = "Target Support Files/Pods-MPMeditatorDemo/Pods-MPMeditatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		76CB32C196CCA690C2A68A25 /* Pods_MPMeditatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPMeditatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFFC71824BE9E9B00588B5E /* MPMeditatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPMeditatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFFC71B24BE9E9B00588B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBFFC71C24BE9E9B00588B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,11 +55,15 @@
 		FBFFC72C24BE9E9E00588B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBFFC72D24BE9E9E00588B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBFFC73324BE9E9E00588B5E /* MPMeditatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMeditatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBFFC73724BE9E9E00588B5E /* MPMeditatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMeditatorDemoTests.m; sourceTree = "<group>"; };
-		FBFFC73924BE9E9E00588B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBFFC73E24BE9E9E00588B5E /* MPMeditatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMeditatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBFFC74224BE9E9E00588B5E /* MPMeditatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMeditatorDemoUITests.m; sourceTree = "<group>"; };
-		FBFFC74424BE9E9E00588B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFFC75024BE9FE800588B5E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FBFFC75124BE9FE800588B5E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FBFFC75424BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CTMediatorModuleAActions.h"; sourceTree = "<group>"; };
+		FBFFC75524BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CTMediatorModuleAActions.m"; sourceTree = "<group>"; };
+		FBFFC76024BEA07000588B5E /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		FBFFC76124BEA07000588B5E /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		FBFFC76324BEA07700588B5E /* DemoModuleADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModuleADetailViewController.m; sourceTree = "<group>"; };
+		FBFFC76424BEA07700588B5E /* DemoModuleADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleADetailViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB15590E8E9262C67D2C629 /* Pods_MPMeditatorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +92,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731B6DF7E658D7D19FF30EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CB32C196CCA690C2A68A25 /* Pods_MPMeditatorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F462D6E6E557BF186746476A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1209C27DC5D610923626A /* Pods-MPMeditatorDemo.debug.xcconfig */,
+				40102DC155B4B566AC6CDFEA /* Pods-MPMeditatorDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FBFFC70F24BE9E9B00588B5E = {
 			isa = PBXGroup;
 			children = (
 				FBFFC71A24BE9E9B00588B5E /* MPMeditatorDemo */,
-				FBFFC73624BE9E9E00588B5E /* MPMeditatorDemoTests */,
-				FBFFC74124BE9E9E00588B5E /* MPMeditatorDemoUITests */,
 				FBFFC71924BE9E9B00588B5E /* Products */,
+				F462D6E6E557BF186746476A /* Pods */,
+				731B6DF7E658D7D19FF30EA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +132,10 @@
 		FBFFC71A24BE9E9B00588B5E /* MPMeditatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FBFFC75E24BEA04900588B5E /* ModuleB */,
+				FBFFC75324BE9FF400588B5E /* ModuleA */,
+				FBFFC75024BE9FE800588B5E /* TableViewController.h */,
+				FBFFC75124BE9FE800588B5E /* TableViewController.m */,
 				FBFFC71B24BE9E9B00588B5E /* AppDelegate.h */,
 				FBFFC71C24BE9E9B00588B5E /* AppDelegate.m */,
 				FBFFC71E24BE9E9B00588B5E /* SceneDelegate.h */,
@@ -119,22 +151,32 @@
 			path = MPMeditatorDemo;
 			sourceTree = "<group>";
 		};
-		FBFFC73624BE9E9E00588B5E /* MPMeditatorDemoTests */ = {
+		FBFFC75324BE9FF400588B5E /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				FBFFC73724BE9E9E00588B5E /* MPMeditatorDemoTests.m */,
-				FBFFC73924BE9E9E00588B5E /* Info.plist */,
+				FBFFC75424BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.h */,
+				FBFFC75524BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.m */,
 			);
-			path = MPMeditatorDemoTests;
+			path = ModuleA;
 			sourceTree = "<group>";
 		};
-		FBFFC74124BE9E9E00588B5E /* MPMeditatorDemoUITests */ = {
+		FBFFC75E24BEA04900588B5E /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
-				FBFFC74224BE9E9E00588B5E /* MPMeditatorDemoUITests.m */,
-				FBFFC74424BE9E9E00588B5E /* Info.plist */,
+				FBFFC76424BEA07700588B5E /* DemoModuleADetailViewController.h */,
+				FBFFC76324BEA07700588B5E /* DemoModuleADetailViewController.m */,
+				FBFFC75F24BEA06000588B5E /* New Group */,
 			);
-			path = MPMeditatorDemoUITests;
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		FBFFC75F24BEA06000588B5E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFC76124BEA07000588B5E /* Target_A.h */,
+				FBFFC76024BEA07000588B5E /* Target_A.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBFFC74724BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemo" */;
 			buildPhases = (
+				5FA169E0A5DBA04996A6B674 /* [CP] Check Pods Manifest.lock */,
 				FBFFC71424BE9E9B00588B5E /* Sources */,
 				FBFFC71524BE9E9B00588B5E /* Frameworks */,
 				FBFFC71624BE9E9B00588B5E /* Resources */,
+				F6354165AECC289201139736 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,15 +306,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FA169E0A5DBA04996A6B674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MPMeditatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6354165AECC289201139736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MPMeditatorDemo/Pods-MPMeditatorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MPMeditatorDemo/Pods-MPMeditatorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MPMeditatorDemo/Pods-MPMeditatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBFFC71424BE9E9B00588B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFFC76524BEA07700588B5E /* DemoModuleADetailViewController.m in Sources */,
 				FBFFC72324BE9E9B00588B5E /* ViewController.m in Sources */,
 				FBFFC71D24BE9E9B00588B5E /* AppDelegate.m in Sources */,
 				FBFFC72E24BE9E9E00588B5E /* main.m in Sources */,
+				FBFFC76224BEA07000588B5E /* Target_A.m in Sources */,
+				FBFFC75224BE9FE800588B5E /* TableViewController.m in Sources */,
 				FBFFC72024BE9E9B00588B5E /* SceneDelegate.m in Sources */,
+				FBFFC75624BEA01B00588B5E /* CTMediator+CTMediatorModuleAActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBFFC73824BE9E9E00588B5E /* MPMeditatorDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBFFC74324BE9E9E00588B5E /* MPMeditatorDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +525,7 @@
 		};
 		FBFFC74824BE9E9E00588B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF1209C27DC5D610923626A /* Pods-MPMeditatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +543,7 @@
 		};
 		FBFFC74924BE9E9E00588B5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40102DC155B4B566AC6CDFEA /* Pods-MPMeditatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

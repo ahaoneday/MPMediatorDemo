@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MPmetiator.framework
