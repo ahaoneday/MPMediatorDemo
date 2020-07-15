@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBFFC71D24BE9E9B00588B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC71C24BE9E9B00588B5E /* AppDelegate.m */; };
+		FBFFC72024BE9E9B00588B5E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC71F24BE9E9B00588B5E /* SceneDelegate.m */; };
+		FBFFC72324BE9E9B00588B5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC72224BE9E9B00588B5E /* ViewController.m */; };
+		FBFFC72624BE9E9B00588B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFFC72424BE9E9B00588B5E /* Main.storyboard */; };
+		FBFFC72824BE9E9E00588B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFFC72724BE9E9E00588B5E /* Assets.xcassets */; };
+		FBFFC72B24BE9E9E00588B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFFC72924BE9E9E00588B5E /* LaunchScreen.storyboard */; };
+		FBFFC72E24BE9E9E00588B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC72D24BE9E9E00588B5E /* main.m */; };
+		FBFFC73824BE9E9E00588B5E /* MPMeditatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC73724BE9E9E00588B5E /* MPMeditatorDemoTests.m */; };
+		FBFFC74324BE9E9E00588B5E /* MPMeditatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC74224BE9E9E00588B5E /* MPMeditatorDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBFFC73424BE9E9E00588B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFFC71024BE9E9B00588B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFFC71724BE9E9B00588B5E;
+			remoteInfo = MPMeditatorDemo;
+		};
+		FBFFC73F24BE9E9E00588B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFFC71024BE9E9B00588B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFFC71724BE9E9B00588B5E;
+			remoteInfo = MPMeditatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBFFC71824BE9E9B00588B5E /* MPMeditatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPMeditatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFFC71B24BE9E9B00588B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBFFC71C24BE9E9B00588B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBFFC71E24BE9E9B00588B5E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FBFFC71F24BE9E9B00588B5E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FBFFC72124BE9E9B00588B5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBFFC72224BE9E9B00588B5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBFFC72524BE9E9B00588B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBFFC72724BE9E9E00588B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFFC72A24BE9E9E00588B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBFFC72C24BE9E9E00588B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFFC72D24BE9E9E00588B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBFFC73324BE9E9E00588B5E /* MPMeditatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMeditatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFFC73724BE9E9E00588B5E /* MPMeditatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMeditatorDemoTests.m; sourceTree = "<group>"; };
+		FBFFC73924BE9E9E00588B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFFC73E24BE9E9E00588B5E /* MPMeditatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMeditatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFFC74224BE9E9E00588B5E /* MPMeditatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMeditatorDemoUITests.m; sourceTree = "<group>"; };
+		FBFFC74424BE9E9E00588B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFFC71524BE9E9B00588B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFFC73024BE9E9E00588B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFFC73B24BE9E9E00588B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBFFC70F24BE9E9B00588B5E = {
+			isa = PBXGroup;
+			children = (
+				FBFFC71A24BE9E9B00588B5E /* MPMeditatorDemo */,
+				FBFFC73624BE9E9E00588B5E /* MPMeditatorDemoTests */,
+				FBFFC74124BE9E9E00588B5E /* MPMeditatorDemoUITests */,
+				FBFFC71924BE9E9B00588B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFFC71924BE9E9B00588B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFC71824BE9E9B00588B5E /* MPMeditatorDemo.app */,
+				FBFFC73324BE9E9E00588B5E /* MPMeditatorDemoTests.xctest */,
+				FBFFC73E24BE9E9E00588B5E /* MPMeditatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFFC71A24BE9E9B00588B5E /* MPMeditatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFC71B24BE9E9B00588B5E /* AppDelegate.h */,
+				FBFFC71C24BE9E9B00588B5E /* AppDelegate.m */,
+				FBFFC71E24BE9E9B00588B5E /* SceneDelegate.h */,
+				FBFFC71F24BE9E9B00588B5E /* SceneDelegate.m */,
+				FBFFC72124BE9E9B00588B5E /* ViewController.h */,
+				FBFFC72224BE9E9B00588B5E /* ViewController.m */,
+				FBFFC72424BE9E9B00588B5E /* Main.storyboard */,
+				FBFFC72724BE9E9E00588B5E /* Assets.xcassets */,
+				FBFFC72924BE9E9E00588B5E /* LaunchScreen.storyboard */,
+				FBFFC72C24BE9E9E00588B5E /* Info.plist */,
+				FBFFC72D24BE9E9E00588B5E /* main.m */,
+			);
+			path = MPMeditatorDemo;
+			sourceTree = "<group>";
+		};
+		FBFFC73624BE9E9E00588B5E /* MPMeditatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFC73724BE9E9E00588B5E /* MPMeditatorDemoTests.m */,
+				FBFFC73924BE9E9E00588B5E /* Info.plist */,
+			);
+			path = MPMeditatorDemoTests;
+			sourceTree = "<group>";
+		};
+		FBFFC74124BE9E9E00588B5E /* MPMeditatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFC74224BE9E9E00588B5E /* MPMeditatorDemoUITests.m */,
+				FBFFC74424BE9E9E00588B5E /* Info.plist */,
+			);
+			path = MPMeditatorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFFC71724BE9E9B00588B5E /* MPMeditatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFFC74724BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemo" */;
+			buildPhases = (
+				FBFFC71424BE9E9B00588B5E /* Sources */,
+				FBFFC71524BE9E9B00588B5E /* Frameworks */,
+				FBFFC71624BE9E9B00588B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPMeditatorDemo;
+			productName = MPMeditatorDemo;
+			productReference = FBFFC71824BE9E9B00588B5E /* MPMeditatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBFFC73224BE9E9E00588B5E /* MPMeditatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFFC74A24BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemoTests" */;
+			buildPhases = (
+				FBFFC72F24BE9E9E00588B5E /* Sources */,
+				FBFFC73024BE9E9E00588B5E /* Frameworks */,
+				FBFFC73124BE9E9E00588B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFFC73524BE9E9E00588B5E /* PBXTargetDependency */,
+			);
+			name = MPMeditatorDemoTests;
+			productName = MPMeditatorDemoTests;
+			productReference = FBFFC73324BE9E9E00588B5E /* MPMeditatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBFFC73D24BE9E9E00588B5E /* MPMeditatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFFC74D24BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemoUITests" */;
+			buildPhases = (
+				FBFFC73A24BE9E9E00588B5E /* Sources */,
+				FBFFC73B24BE9E9E00588B5E /* Frameworks */,
+				FBFFC73C24BE9E9E00588B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFFC74024BE9E9E00588B5E /* PBXTargetDependency */,
+			);
+			name = MPMeditatorDemoUITests;
+			productName = MPMeditatorDemoUITests;
+			productReference = FBFFC73E24BE9E9E00588B5E /* MPMeditatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFFC71024BE9E9B00588B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = xiangxue;
+				TargetAttributes = {
+					FBFFC71724BE9E9B00588B5E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FBFFC73224BE9E9E00588B5E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FBFFC71724BE9E9B00588B5E;
+					};
+					FBFFC73D24BE9E9E00588B5E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FBFFC71724BE9E9B00588B5E;
+					};
+				};
+			};
+			buildConfigurationList = FBFFC71324BE9E9B00588B5E /* Build configuration list for PBXProject "MPMeditatorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFFC70F24BE9E9B00588B5E;
+			productRefGroup = FBFFC71924BE9E9B00588B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFFC71724BE9E9B00588B5E /* MPMeditatorDemo */,
+				FBFFC73224BE9E9E00588B5E /* MPMeditatorDemoTests */,
+				FBFFC73D24BE9E9E00588B5E /* MPMeditatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFFC71624BE9E9B00588B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFFC72B24BE9E9E00588B5E /* LaunchScreen.storyboard in Resources */,
+				FBFFC72824BE9E9E00588B5E /* Assets.xcassets in Resources */,
+				FBFFC72624BE9E9B00588B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFFC73124BE9E9E00588B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFFC73C24BE9E9E00588B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFFC71424BE9E9B00588B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFFC72324BE9E9B00588B5E /* ViewController.m in Sources */,
+				FBFFC71D24BE9E9B00588B5E /* AppDelegate.m in Sources */,
+				FBFFC72E24BE9E9E00588B5E /* main.m in Sources */,
+				FBFFC72024BE9E9B00588B5E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFFC72F24BE9E9E00588B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFFC73824BE9E9E00588B5E /* MPMeditatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFFC73A24BE9E9E00588B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFFC74324BE9E9E00588B5E /* MPMeditatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBFFC73524BE9E9E00588B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFFC71724BE9E9B00588B5E /* MPMeditatorDemo */;
+			targetProxy = FBFFC73424BE9E9E00588B5E /* PBXContainerItemProxy */;
+		};
+		FBFFC74024BE9E9E00588B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFFC71724BE9E9B00588B5E /* MPMeditatorDemo */;
+			targetProxy = FBFFC73F24BE9E9E00588B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBFFC72424BE9E9B00588B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFFC72524BE9E9B00588B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBFFC72924BE9E9E00588B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFFC72A24BE9E9E00588B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBFFC74524BE9E9E00588B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBFFC74624BE9E9E00588B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFFC74824BE9E9E00588B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93PPUADW2;
+				INFOPLIST_FILE = MPMeditatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Byx.MPMeditatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBFFC74924BE9E9E00588B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93PPUADW2;
+				INFOPLIST_FILE = MPMeditatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Byx.MPMeditatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBFFC74B24BE9E9E00588B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93PPUADW2;
+				INFOPLIST_FILE = MPMeditatorDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Byx.MPMeditatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPMeditatorDemo.app/MPMeditatorDemo";
+			};
+			name = Debug;
+		};
+		FBFFC74C24BE9E9E00588B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93PPUADW2;
+				INFOPLIST_FILE = MPMeditatorDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Byx.MPMeditatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPMeditatorDemo.app/MPMeditatorDemo";
+			};
+			name = Release;
+		};
+		FBFFC74E24BE9E9E00588B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93PPUADW2;
+				INFOPLIST_FILE = MPMeditatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Byx.MPMeditatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPMeditatorDemo;
+			};
+			name = Debug;
+		};
+		FBFFC74F24BE9E9E00588B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93PPUADW2;
+				INFOPLIST_FILE = MPMeditatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Byx.MPMeditatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPMeditatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFFC71324BE9E9B00588B5E /* Build configuration list for PBXProject "MPMeditatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFFC74524BE9E9E00588B5E /* Debug */,
+				FBFFC74624BE9E9E00588B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFFC74724BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFFC74824BE9E9E00588B5E /* Debug */,
+				FBFFC74924BE9E9E00588B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFFC74A24BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFFC74B24BE9E9E00588B5E /* Debug */,
+				FBFFC74C24BE9E9E00588B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFFC74D24BE9E9E00588B5E /* Build configuration list for PBXNativeTarget "MPMeditatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFFC74E24BE9E9E00588B5E /* Debug */,
+				FBFFC74F24BE9E9E00588B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFFC71024BE9E9B00588B5E /* Project object */;
+}
